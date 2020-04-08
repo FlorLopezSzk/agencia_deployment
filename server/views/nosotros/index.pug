@@ -1,0 +1,31 @@
+extends ../layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagen desde nosotros")
+                
+                img.img-fluid(src="img/destinos_canada_ln.jpg", alt="Imagen desde nosotros")
+
+            .col-md-7
+                h1 #{pagina}
+                blockquote Quisque facilisis auctor orci, quis pulvinar nunc convallis sit amet. Donec ligula turpis, tempor sed tortor id, iaculis cursus ipsum. Morbi in ligula eget diam semper mattis id ut purus. Vestibulum sed neque viverra massa tempus ultricies. Integer venenatis et mauris ac ullamcorper. Maecenas dolor magna, gravida sagittis convallis vitae, tincidunt et tellus. Ut lacus ante, dignissim ac suscipit a, iaculis sed mauris. Nunc luctus sapien sed volutpat imperdiet. Vivamus viverra tempus elit maximus lacinia. Duis orci lectus, accumsan sit amet eros at, vestibulum fermentum turpis. Vivamus diam tortor, ultricies sed congue eget, bibendum eget massa.
+                p Etiam vitae sem imperdiet, bibendum arcu ac, vestibulum odio. Praesent nec congue ligula. Nam at augue metus. Vivamus rhoncus egestas purus, volutpat ullamcorper felis. Phasellus sit amet lacus commodo, gravida velit imperdiet, vulputate elit. Sed in porttitor lacus. Suspendisse ac ex gravida sem aliquet semper. Aenean a magna sit amet nulla sodales tempus. Praesent fermentum, tellus a tempus fringilla, mi quam hendrerit orci, ut luctus ante ipsum non mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices id sapien eget lacinia. Proin bibendum eros eu dolor congue, aliquam lobortis tellus auctor. Donec imperdiet vel justo in pretium. Ut eget volutpat sem.
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet purus sit amet nisl pharetra, vitae efficitur nibh pulvinar. Integer interdum ligula sit amet nunc porta rutrum a quis libero. Donec suscipit, tellus non vestibulum laoreet, ex ligula luctus lorem, nec mattis purus metus sed justo. Duis pretium est tellus, quis semper sapien ornare condimentum. Etiam ut ipsum ut velit sollicitudin dapibus. Integer lobortis vulputate vulputate. Nam eu fermentum leo, iaculis fringilla nibh. Proin a lorem lobortis sapien accumsan accumsan eget ut urna. Quisque convallis erat at urna tempor, ut gravida ante scelerisque. Vestibulum varius arcu lectus, id dapibus diam condimentum eget. Phasellus nunc ante, congue eu arcu ut, mollis placerat massa.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img.img-fluid.mb-4(src="img/icono_seguridad.svg", alt="Seguridad")
+                    h2.mb-4 Seguridad
+                    p Nam scelerisque laoreet varius. Nulla ut mauris enim. Nam luctus consequat fringilla;
+                .col-md-4
+                    img.img-fluid.mb-4(src="img/icono_destinos.svg", alt="Destinos")
+                    h2.mb-4 Mejores destinos
+                    p Fusce tincidunt lacus velit, eu euismod libero rhoncus sed. Maecenas maximus nisl sed dictum condimentum.
+                .col-md-4
+                    img.img-fluid.mb-4(src="img/icono_precios.svg", alt="Precios")
+                    h2.mb-4 Mejores precios
+                    p Etiam sollicitudin elit dapibus, gravida diam vel, auctor lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
